@@ -1,0 +1,63 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        padding: 2rem;
+    }
+    
+    .buttons {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .operator {
+        background-color: rgb(144, 191, 126);
+        height: 60px;
+        width: 60px;
+        font-size: 15px;
+        outline: none;
+    }
+    
+    .square {
+        background-color: rgb(117, 176, 91);
+        height: 60px;
+        width: 60px;
+        color: white;
+        font-size: 15px;
+        outline: none;
+    }
+    
+    .clear {
+        /* margin-right: 132px; */
+        background-color: rgb(117, 176, 91);
+        height: 60px;
+        width: 60px;
+        color: white;
+        font-size: 15px;
+        outline: none;
+    }
+    
+    .square:hover {
+        background-color: rgb(144, 191, 126);
+    }
+    
+    .clear:hover {
+        background-color: rgb(144, 191, 126);
+    }
+    
+    .operator:hover {
+        color: white;
+    }
+    
+    .input {
+        background-color: rgb(117, 176, 91);
+        height: 60px;
+        width: 180px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(216, 216, 216);
+    }
