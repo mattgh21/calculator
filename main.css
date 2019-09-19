@@ -60,6 +60,6 @@
         border-style: solid;
         border-width: 1px;
         border-color: rgb(216, 216, 216);
-        text-align: end
+        text-align: right;
         /* line-height: 1rem; */
     }
